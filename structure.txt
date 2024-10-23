@@ -1,0 +1,19 @@
+wevapplication/
+├── src/
+│   ├── config/
+│   │   └── database.js       # Configurazione MySQL
+│   ├── controllers/
+│   │   └── userController.js # Logica business
+│   ├── middleware/
+│   │   ├── auth.js          # JWT auth middleware
+│   │   └── validate.js      # Input validation
+│   ├── models/
+│   │   └── User.js          # Model utente
+│   ├── routes/
+│   │   └── userRoutes.js    # Route definitions
+│   └── utils/
+│       └── errorHandler.js   # Gestione errori
+├── .env                      # Variabili ambiente
+├── .gitignore
+├── package.json
+└── server.js                 # Entry point
